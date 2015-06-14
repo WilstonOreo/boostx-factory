@@ -65,7 +65,7 @@ namespace boostx
     static void reg()
     {
       key_type_check<T>();
-      reg(registrar_type<T>::type_id());
+      reg<T>(registrar_type<T>::type_id());
     }
     
     /// Unregisters class with custom key 

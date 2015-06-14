@@ -70,8 +70,5 @@ IF(DOXYGEN_FOUND MATCHES YES)
       COMMENT "Generating API documentation with Doxygen (see ./doc/html/index.html)" VERBATIM
     )
     MESSAGE(STATUS "Doxygen is setup. Use 'make doc' to generate documentation.")
-  ELSE()
-    MESSAGE(WARNING "Could not setup Doxygen!")
-    
   endif()
 ENDIF()
